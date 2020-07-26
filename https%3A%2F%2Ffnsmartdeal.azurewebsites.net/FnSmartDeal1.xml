@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="FnSmartDeal1" path="/api/fnSmartDeal1" id="35e223db-93a5-4f11-af74-2aefe113e32e" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="35e223db-93a5-4f11-af74-2aefe113e32efileName">FnSmartDeal1</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="FnSmartDeal1" id="5a4dfd2a-3efc-48b4-9cf7-821b2d6aaf9e" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter required="true">
+        <con:name>code</con:name>
+        <con:value>h1nULuuHrKoGxsZ/FQ/8aeOXqvhpJz3HuYMD5PfIPLkVJ0z24i8vzA==</con:value>
+        <con:style>QUERY</con:style>
+        <con:default>h1nULuuHrKoGxsZ/FQ/8aeOXqvhpJz3HuYMD5PfIPLkVJ0z24i8vzA==</con:default>
+        <con:path xsi:nil="true"/>
+        <con:description xsi:nil="true"/>
+      </con:parameter>
+    </con:parameters>
+    <con:representation type="RESPONSE">
+      <con:mediaType>text/plain; charset=utf-8</con:mediaType>
+      <con:status>200</con:status>
+      <con:params/>
+      <con:element>data</con:element>
+    </con:representation>
+    <con:request name="Request 1" id="e2638412-85e3-4375-9938-bbb453c4e632" mediaType="application/json">
+      <con:settings>
+        <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+      </con:settings>
+      <con:endpoint>https://fnsmartdeal.azurewebsites.net</con:endpoint>
+      <con:request/>
+      <con:originalUri>https://fnsmartdeal.azurewebsites.net/api/fnSmartDeal1</con:originalUri>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+      <con:parameters>
+        <con:entry key="code" value="h1nULuuHrKoGxsZ/FQ/8aeOXqvhpJz3HuYMD5PfIPLkVJ0z24i8vzA=="/>
+      </con:parameters>
+      <con:parameterOrder>
+        <con:entry>code</con:entry>
+      </con:parameterOrder>
+    </con:request>
+  </con:method>
+</con:resource>

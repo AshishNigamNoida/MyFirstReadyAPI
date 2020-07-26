@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="c0d5f980-24e9-4b9e-8dfe-06a6d0a6bc90" wadlVersion="http://wadl.dev.java.net/2009/02" name="https://fnsmartdeal.azurewebsites.net" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="c0d5f980-24e9-4b9e-8dfe-06a6d0a6bc90fileName">https%3A%2F%2Ffnsmartdeal.azurewebsites.net</con:setting>
+  </con:settings>
+  <con:definitionCache type="TEXT" rootPart=""/>
+  <con:endpoints>
+    <con:endpoint>https://fnsmartdeal.azurewebsites.net</con:endpoint>
+  </con:endpoints>
+</con:interface>
