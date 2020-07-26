@@ -77,41 +77,6 @@
             <IncludeGlobal>false</IncludeGlobal>
           </con:configuration>
         </con:assertion>
-        <con:assertion type="MessageContentAssertion" id="28f67fa5-f281-4508-a8fe-50fc2681cb4c" name="Message Content Assertion">
-          <con:configuration xsi:type="con:MessageContentAssertion">
-            <con:elements>
-              <con:xpath>//data[1]</con:xpath>
-              <con:element>data</con:element>
-              <con:type xsi:nil="true"/>
-              <con:operator>=</con:operator>
-              <con:enabled>true</con:enabled>
-              <con:expectedValue>My Demo Azure Functions</con:expectedValue>
-              <con:hasValue>false</con:hasValue>
-              <con:numberType>false</con:numberType>
-            </con:elements>
-            <con:elements>
-              <con:xpath>//data[1]/@contentType</con:xpath>
-              <con:element>@contentType</con:element>
-              <con:type/>
-              <con:operator>=</con:operator>
-              <con:enabled>true</con:enabled>
-              <con:expectedValue>text/plain; charset=utf-8</con:expectedValue>
-              <con:hasValue>false</con:hasValue>
-              <con:numberType>false</con:numberType>
-            </con:elements>
-            <con:elements>
-              <con:xpath>//data[1]/@contentLength</con:xpath>
-              <con:element>@contentLength</con:element>
-              <con:type/>
-              <con:operator>=</con:operator>
-              <con:enabled>true</con:enabled>
-              <con:expectedValue>23</con:expectedValue>
-              <con:hasValue>false</con:hasValue>
-              <con:numberType>false</con:numberType>
-            </con:elements>
-            <con:originalMessage>&lt;data contentType="text/plain; charset=utf-8" contentLength="23">&lt;![CDATA[My Demo Azure Functions]]&gt;&lt;/data></con:originalMessage>
-          </con:configuration>
-        </con:assertion>
         <con:credentials>
           <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
           <con:authType>No Authorization</con:authType>
